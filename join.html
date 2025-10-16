@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join Nautanki Club</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>नौटंकी Club</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#form">Join Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Join Form Section -->
+  <section id="form" class="join-form-section">
+    <h2>Join Our Club</h2>
+    <p>Be a part of Nautanki and unleash your creativity! Fill out the form below to join our vibrant community.</p>
+
+    <form class="join-form" action="#" method="post">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="dept">Department</label>
+      <input type="text" id="dept" name="dept" placeholder="e.g., Computer Science" required>
+
+      <label for="year">Year</label>
+      <select id="year" name="year" required>
+        <option value="">Select your year</option>
+        <option value="Diploma">Diploma</option>
+        <option value="First Year">First Year</option>
+        <option value="Second Year">Second Year</option>
+        <option value="Third Year">Third Year</option>
+        <option value="Final Year">Final Year</option>
+      </select>
+
+      <label for="reason">Why do you want to join?</label>
+      <textarea id="reason" name="reason" rows="4" placeholder="Write a short reason..." required></textarea>
+
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Nautanki Club | Rajarambapu Institute of Technology</p>
+  </footer>
+
+</body>
+</html>
